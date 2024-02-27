@@ -11,6 +11,7 @@ public class PersegiPanjangDemoSapri {
 
         for (int i = 0; i < jumlahPersegiPanjang; i++) {
             System.out.println("Persegi PANJANG YANG KEEE -- " + (i + 1));
+            
             System.out.println("MASUKKAN PANJANGNYAAA yaw Miaw:");
             panjang = SAPRIZALSAMPITAK.nextInt();
             System.out.println("MASUKKAN LEBAR YA MIAWW:");

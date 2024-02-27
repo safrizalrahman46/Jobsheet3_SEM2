@@ -14,10 +14,10 @@ class MahasiswaMahabarata {
     }
 
     void cetakInfo() {
-        System.out.println("Nama: " + nama);
-        System.out.println("NIM: " + nim);
-        System.out.println("Jenis Kelamin: " + jenisKelamin);
-        System.out.println("IPK: " + ipk);
+        System.out.println("NamaNYA MIAW: " + nama);
+        System.out.println("NIM NYA: " + nim);
+        System.out.println("Jenis Kelamin Tidak BOLEH GENERAL: " + jenisKelamin);
+        System.out.println("IPK HARUS BAGUS: " + ipk);
     }
 }
 

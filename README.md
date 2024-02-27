@@ -1,5 +1,13 @@
 # Jobsheet3_SEM2
 
+### VIDEO REFERENSI PRACTICE DANCE BY KISS OF LIFE 
+
+https://www.youtube.com/watch?v=tFUjI8uZgas&list=RDtFUjI8uZgas&start_radio=1
+<VIDEO ID>
+https://www.youtube.com/watch?v=tFUjI8uZgas&list=RDtFUjI8uZgas&start_radio=1
+<VIDEO ID>
+
+
 foobar.pluralize('word')
 
 Node.JS Chat
