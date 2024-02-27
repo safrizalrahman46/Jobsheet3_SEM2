@@ -1,27 +1,27 @@
+import java.util.Scanner;
+
 public class PersegiPanjangDemoSapri {
-    
-    // 1. Deklarasi Class danm
     public static void main(String[] args) {
-        PersegiPanjang[] arrayOfPersegiPanjang = new PersegiPanjang[3];
+        Scanner SAPRIZALSAMPITAK = new Scanner(System.in);
 
-        arrayOfPersegiPanjang[0] = new PersegiPanjang();
-        arrayOfPersegiPanjang[0].panjang = 110;
-        arrayOfPersegiPanjang[0].lebar =30 ;
-        
-        arrayOfPersegiPanjang[1] = new PersegiPanjang();
-        arrayOfPersegiPanjang[1].panjang = 80;
-        arrayOfPersegiPanjang[1].lebar =50 ;
-        
-        arrayOfPersegiPanjang[2] = new PersegiPanjang();
-        arrayOfPersegiPanjang[2].panjang = 100;
-        arrayOfPersegiPanjang[2].lebar =20 ;
+        System.out.println("Masukkan jumlah persegi panjang yang ingin Diinputkan yA MIAW:");
+        int jumlahPersegiPanjang = SAPRIZALSAMPITAK.nextInt();
+        PersegiPanjang[] ArrayOfPersegiPanjang = new PersegiPanjang[jumlahPersegiPanjang];
+        int panjang, lebar;
 
-        System.out.println("Persegi Panjang ke 1 , PANJANGNYAA : " + arrayOfPersegiPanjang[0].panjang + ", LEBARNYAA : " + arrayOfPersegiPanjang[0].lebar) ;
-        
-        System.out.println("Persegi Panjang ke 2 , PANJANGNYAA : " + arrayOfPersegiPanjang[1].panjang + ", LEBARNYAA : " + arrayOfPersegiPanjang[1].lebar) ;
-        
-        System.out.println("Persegi Panjang ke 3 , PANJANGNYAA : " + arrayOfPersegiPanjang[2].panjang + ", LEBARNYAA : " + arrayOfPersegiPanjang[2].lebar) ;
-        
-        
+        for (int i = 0; i < jumlahPersegiPanjang; i++) {
+            System.out.println("Persegi PANJANG YANG KEEE -- " + (i + 1));
+            System.out.println("MASUKKAN PANJANGNYAAA yaw Miaw:");
+            panjang = SAPRIZALSAMPITAK.nextInt();
+            System.out.println("MASUKKAN LEBAR YA MIAWW:");
+            lebar = SAPRIZALSAMPITAK.nextInt();
+            ArrayOfPersegiPanjang[i] = new PersegiPanjang(panjang , lebar);
+            System.out.println("LuasNya: " + ArrayOfPersegiPanjang[i].hitungLuasnya() + ", KelilingNYAW: " + ArrayOfPersegiPanjang[i].hitungKelilingnya());
+        }
+
+        System.out.println("                                            ");
+        for (int i = 0; i < jumlahPersegiPanjang; i++) {
+            System.out.println("Persegi Panjang ke "+ (i + 1)  +", PANJANGNYAA : " + ArrayOfPersegiPanjang[i].panjang + ", LEBARNYAA : " + ArrayOfPersegiPanjang[i].lebar + " LuasNya: " + ArrayOfPersegiPanjang[i].hitungLuasnya() + ", KelilingNYAW: " + ArrayOfPersegiPanjang[i].hitungKelilingnya());
+        }
     }
 }
