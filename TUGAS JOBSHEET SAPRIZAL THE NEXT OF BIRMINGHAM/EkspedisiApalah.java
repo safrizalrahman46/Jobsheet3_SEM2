@@ -12,7 +12,7 @@ public class EkspedisiApalah {
     String kodeEekspedisi;
     double total;
 
-    EkspedisiApalah(String nama, String nomorekspedisi,String kantorEekspedisi, String kodeEekspedisi, double total) {
+    EkspedisiApalah(String nama, String nomorEekspedisi,String kantorEekspedisi, String kodeEekspedisi, double total) {
         this.nama = nama;
         this.kantorEekspedisi = kantorEekspedisi;
         this.nomorEekspedisi = nomorEekspedisi;
